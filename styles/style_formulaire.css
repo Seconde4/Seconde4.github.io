@@ -1,0 +1,122 @@
+html{
+	font-family: Arial, serif;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+header{
+	float:top;
+	width:100%;
+	height:50px;
+	background-color:#1a1733;
+}
+
+.boutons{
+	float:left;
+	width:100%;
+	height:80px;
+	background-color:#1a1733;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+section{
+	text-align:left;
+	font-size:x-large;
+	float:left;
+	width:50%;
+	height:1000px;
+	background-color:#ffd3c4;
+	font-family:Faune, Arial;
+}
+
+.numerique{
+	float:left;
+	width:50%;
+	height:1000px;
+	background-color:#ffd3c4;
+	text-align:left;
+	font-family:Faune, Arial;
+	font-size:150%;
+}
+
+.titre_def{
+	font-size:200%;
+	text-align:left;
+	margin:20px;
+}
+
+
+footer{
+	float:left;
+	width:100%;
+	height:150px;
+	background-color:#999999;
+}
+
+nav{
+	text-align:center;
+	font-size:500%;
+	float:left;
+	float:bottom;
+	width:100%;
+	height:550px;
+	background-color:#ffffff;
+}
+
+
+.titre{
+	text-align:center;
+	font-size:150%;
+	font-weight: bold;
+}
+
+.paragraphe{
+	width:60%;
+	float:left;
+	margin:10px;
+	text-align:left;
+	font-size:95%;
+}
+
+.m-paragraphe{
+	margin:20px;
+	text-align:left;
+	font-size:110%;
+}
+
+.lien1 {
+	background-color:#1a1733;
+	height:80px;
+	width:20%;
+	font-size:110%;
+	float:left;
+	left:0px;
+	bottom:0px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	transition: .5s all;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
+
+
+.lien1:visited {
+	text-decoration: none;
+	text-align: center;	
+	color:#ffffff;
+}
+
+.lien1:hover {
+	text-decoration: none;
+	color:red; /*ce truc marche !*/
+}

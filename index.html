@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Titre</title>
+		<link rel="stylesheet" type="text/css" href="./styles/style.css">
+						<script language="javascript">
+					function plus()
+					{code_html = '<a href="'+liens[chiffre]+'" target="_blank"><img border="0" src="'+pictures[chiffre]+'" height="100px" width="75px" ></a>';
+					document.getElementById("zone_bannieres").innerHTML = code_html;
+						if(chiffre == longueur)
+							{ chiffre = 0; }
+							else
+							{ chiffre++; }
+					changement = 1;
+					//durée d'affichage d'une bannière en secondes
+					window.setTimeout("plus()", (changement*2000));}
+					/* http://www.espacejavascript.com */
+					pictures = new Array()
+					pictures[0] = './images/carrelage_1.jfif';
+					pictures[1] = './images/carrelage_2.jfif';
+					pictures[2] = './images/carrelage_3.jfif';
+					longueur = pictures.length-1;
+
+					liens = new Array()
+					liens[0] = 'lien_image1.html';
+					liens[1] = 'lien_image2.html';
+					liens[2] = 'lien_image3.html';
+					chiffre = 0;
+					</script>	
+	</head>
+		<link rel='stylesheet' href='http://www.cnap.graphismeenfrance.fr/faune/styles/faune-fontes.css'>
+		<body onload="plus()">
+			<header>
+			</header>
+			<div class="boutons">
+					<a href="./formulaire.html" class="lien1" >Formulaire</a>
+					<a href="./page_robotique.html" class="lien1" >Robotique</a>
+					<a href="./page_web_page.html" class="lien1" >Site Web</a>
+					<a href="./dessin_numerique_page.html" class="lien1" >Dessin Numérique</a>
+					<a href="./formulaire.html" class="lien1" >Lipton</a>
+			</div>
+			
+			 <nav>
+			 <br>
+				<p> Une classe à projet, </p>
+				<br>
+				<pre>      à travers le numérique</pre>
+			</nav>
+
+			<section>
+				<center>
+				<br>
+				<br>
+				<h1 class="titre"> La classe à projet autour du numérique</h1>
+				<br>
+				<p class="m-paragraphe"> Présentation de la classe </p>
+				<p class="paragraphe"> La classe à projet informatique est une des classes à projets proposées par Saint vincent. Cette classe à projet propose trois grands axes qui sont la robotique, le site web et la page informatique </p>
+			</section>
+			<div class="numerique">
+				<br>
+				<h1 class="titre_def">Numérique</h1>
+				<p class="paragraphe">adj. (vient du latin numérus qui signifie “nombre”)</p>
+			
+					<div id="zone_bannieres" align="center"></div>
+			</div>
+			
+			<footer>
+				<a href="https://www.saintvincent-rennes.org">Le site de SaintVincent</a>
+				<a href="mailto:maloelouenn.roy@gmail.com">Mon SUPER MAIL !!!!!!</a>
+			</footer>
+		</body>
+</html>

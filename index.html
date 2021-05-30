@@ -3,71 +3,90 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Titre</title>
-		<link rel="stylesheet" type="text/css" href="./styles/style.css">
-						<script language="javascript">
-					function plus()
-					{code_html = '<a href="'+liens[chiffre]+'" target="_blank"><img border="0" src="'+pictures[chiffre]+'" height="100px" width="75px" ></a>';
-					document.getElementById("zone_bannieres").innerHTML = code_html;
-						if(chiffre == longueur)
-							{ chiffre = 0; }
-							else
-							{ chiffre++; }
-					changement = 1;
-					//durée d'affichage d'une bannière en secondes
-					window.setTimeout("plus()", (changement*2000));}
-					/* http://www.espacejavascript.com */
-					pictures = new Array()
-					pictures[0] = './images/carrelage_1.jfif';
-					pictures[1] = './images/carrelage_2.jfif';
-					pictures[2] = './images/carrelage_3.jfif';
-					longueur = pictures.length-1;
-
-					liens = new Array()
-					liens[0] = 'lien_image1.html';
-					liens[1] = 'lien_image2.html';
-					liens[2] = 'lien_image3.html';
-					chiffre = 0;
-					</script>	
+		<link rel="stylesheet" type="text/css" href="./styles/site_web.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">	
 	</head>
 		<link rel='stylesheet' href='http://www.cnap.graphismeenfrance.fr/faune/styles/faune-fontes.css'>
 		<body onload="plus()">
 			<header>
 			</header>
 			<div class="boutons">
-					<a href="./formulaire.html" class="lien1" >Formulaire</a>
 					<a href="./page_robotique.html" class="lien1" >Robotique</a>
 					<a href="./page_web_page.html" class="lien1" >Site Web</a>
 					<a href="./dessin_numerique_page.html" class="lien1" >Dessin Numérique</a>
-					<a href="./formulaire.html" class="lien1" >Lipton</a>
 			</div>
 			
 			 <nav>
 			 <br>
-				<p> Une classe à projet, </p>
+				<p> Une classe à projet </p>
 				<br>
 				<pre>      à travers le numérique</pre>
 			</nav>
 
 			<section>
-				<center>
+				<div class="numerique_partie1">
 				<br>
 				<br>
-				<h1 class="titre"> La classe à projet autour du numérique</h1>
+				<h1 class="titre"> La classe à projet</h1>
 				<br>
-				<p class="m-paragraphe"> Présentation de la classe </p>
-				<p class="paragraphe"> La classe à projet informatique est une des classes à projets proposées par Saint vincent. Cette classe à projet propose trois grands axes qui sont la robotique, le site web et la page informatique </p>
+				<br>
+					<p class="paragraphe"> La classe à projet numérique et informatique de Saint Vincent est un projet de classe qui parcourt les différentes facettes de l’informatique. </p>
+					<p class="paragraphe"> La classe numérique rassemble tous les élèves sous les mêmes projets et est ouverte à tout élève, du curieux au passionné. </p>
+					<p class="paragraphe"> Tout au long de l'année, plusieurs événements sont organisés comme des sorties ou des présentations des facettes de l’informatique. Cette diversité est également un des avantages du projet. </p>
+				</div>
+				<div class="menu">
+					<br>
+					<br>
+					<br>
+					<br>
+					<h1 class="titre_menu"> Les événements en 2021</h1>
+					<br>
+					<p class="paragraphe_menu"> ° Découverte du binaire et du héxadécimal </p>
+					<br>
+					<p class="paragraphe_menu"> ° Apprentissage des bases du codage 'python' </p>
+					<br>
+					<p class="paragraphe_menu"> ° Sortie dans Rennes à la découverte du festival 'Maintenant' </p>
+					<br>
+					<p class="paragraphe_menu"> ° Concours d'informatique 'Castor' </p>
+					<br>
+					<p class="paragraphe_menu"> ° Découverte de la carte MicroBit</p>
+				</div>
 			</section>
-			<div class="numerique">
-				<br>
-				<h1 class="titre_def">Numérique</h1>
-				<p class="paragraphe">adj. (vient du latin numérus qui signifie “nombre”)</p>
-			
-					<div id="zone_bannieres" align="center"></div>
+			<div class="marge_projet2">
 			</div>
-			
+			<div class="projets">
+				<div class="projet_idees">
+					<br>
+					<br>
+					<br>
+					<p class="titre_projets"> Trois projets centraux </p>
+					<br>
+					<br>
+					<br>
+					<p class="paragraphe_projets"> 3 projets sont oganisés tout au long de l'année :</p>
+					<br>
+					<p class="paragraphe_projets">- programmation robotique</p>
+					<br>
+					<p class="paragraphe_projets">- développement de site web</p>
+					<br>
+					<p class="paragraphe_projets">- découverte du dessin numérique</p>
+					<br>
+				</div>
+				<div class="projet_texte">
+					<p class="paragraphe_projets"> Chaque projet aborde une facette différente du monde de l'informatique.</p>
+					<p class="paragraphe_projets"> Un cycle de un projet par semaine permet de varier le temps dédié à chaque projet.</p>
+					<p class="paragraphe_projets"> Pour plus d'information, des pages de présentation sont disponibles.</p>
+				</div>
+			</div>
+			<div class="marge_projet2">
+			</div>
 			<footer>
-				<a href="https://www.saintvincent-rennes.org">Le site de SaintVincent</a>
-				<a href="mailto:maloelouenn.roy@gmail.com">Mon SUPER MAIL !!!!!!</a>
+				<br>
+				<br>
+				<pre class="paragraphe_footer">Site réalisé par Malo Roy dans le cadre du projet "site web"	<a href="https://www.saintvincent-rennes.org" class="lien2">Le site de SaintVincent</a> </pre>
 			</footer>
 		</body>
 </html>

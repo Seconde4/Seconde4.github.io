@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Titre</title>
+		<link rel="stylesheet" type="text/css" href="./styles/site_web.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+			<script language="javascript">
+			function plus1()
+			{code_html = '<a href="'+liens[chiffre]+'" target="_blank"><img border="0" src="'+pictures[chiffre]+'"></a>';
+			document.getElementById("zone_bannieres1").innerHTML = code_html;
+				if(chiffre == longueur)
+					{ chiffre = 0; }
+					else
+					{ chiffre++; }
+			changement = 1;
+			//durée d'affichage d'une bannière en secondes
+			window.setTimeout("plus1()", (changement*2000));}
+			/* http://www.espacejavascript.com */
+			pictures = new Array()
+			pictures[0] = './images/H_1.png';
+			pictures[1] = './images/H_22.png';
+			pictures[2] = './images/H_3.png';
+			pictures[3] = './images/H_4.png';
+			pictures[4] = './images/H_5.png';
+			pictures[5] = './images/H_6.png';
+			longueur = pictures.length-1;
+
+			</script>	
+			
+			<script language="javascript">
+			function plus2()
+			{code_html = '<a href="'+liens2[chiffre2]+'" target="_blank"><img border="0" src="'+pictures2[chiffre2]+'"></a>';
+			document.getElementById("zone_bannieres2").innerHTML = code_html;
+				if(chiffre2 == longueur2)
+					{ chiffre2 = 0; }
+					else
+					{ chiffre2++; }
+			changement2 = 1;
+			//durée d'affichage d'une bannière en secondes
+			window.setTimeout("plus2()", (changement2*2000));}
+			/* http://www.espacejavascript.com */
+			pictures2 = new Array()
+			pictures2[0] = './images/V_1.png';
+			pictures2[1] = './images/V_2.png';
+			pictures2[2] = './images/V_3.png';
+			longueur2 = pictures2.length-1;
+
+			</script>				
+	</head>
+		<link rel='stylesheet' href='http://www.cnap.graphismeenfrance.fr/faune/styles/faune-fontes.css'>
+		<body onload="plus1()">
+		<body onload="plus2()">
+		<body>
+			<header>
+			</header>
+			<div class="boutons">
+					<a href="./index.html" class="lien1" >Retour</a>
+			</div>
+			
+			 <nav>
+				<br>
+				<p>Dessin numérique</p>
+				<br>
+				<pre>un nouveau support de création</pre>
+			</nav>
+
+			<div class="section3">
+				<div class="numerique_partie1">
+				<br>
+				<br>
+				<h1 class="titre"> Le dessin numérique</h1>
+				<br>
+				<br>
+					<p class="paragraphe"> Le dessin numérique est le troisième projet de la classe informatique. Il présente l’ensemble des techniques du dessin numérique allant des calques au photo-montage </p>
+					<p class="paragraphe"> Le projet est très simple à l’aide de la tablette et de documents qui offrent une découverte pas à pas pour aller d’un dessin simple à un assemblage plus complexe. </p>
+					<p class="paragraphe"> Ce projet, au delà de la découverte, permet de faciliter l’utilisation d’applications d’édition photo comme ‘photoshop’ ou comme 'sketchbook' (sur la tablette). </p>
+				</div>
+				<div class="menu">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<img src="./images/V_1.png">
+				</div>
+			</div>
+			<div class="marge_projet3">
+			</div>
+			<div class="projets3">
+				<center>
+				<br>
+				<br>
+				<br>
+				<p class="titre_projets"> Les projets en 2020-2021 </p>
+				<br>
+				<br>
+				<br>
+				<p class="paragraphe_projets"> Pour regarder les projets faits pendant l'années vous pouvez cliquer</p>
+				<br>
+				<a href="./dessins.html" class="lien3">ici</a>
+			</div>
+			<div class="marge_projet3">
+			</div>
+			<footer>
+				<p class="paragraphe_footer"> Merci à Monsieur Denot pour avoir organisé ce projet</p>
+			</footer>
+		</body>
+</html>
